@@ -1,0 +1,27 @@
+{
+  "name": "curve25519",
+  "version": "1.0.0",
+  "description": "JS port of original curve25519 library by Daniel J. Bernstein",
+  "main": "dist/curve25519.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heatcrypto/curve25519.git"
+  },
+  "keywords": [
+    "curve25519",
+    "HEAT",
+    "blockchain"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heatcrypto/curve25519/issues"
+  },
+  "homepage": "https://github.com/heatcrypto/curve25519#readme",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
